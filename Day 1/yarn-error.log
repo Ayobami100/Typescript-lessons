@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\user pc\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript -D
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\user pc\AppData\Local\Microsoft\WindowsApps;;C:\Users\user pc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user pc\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "yarn": "^1.22.19"
+    },
+    "name": "TS-BASICS",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Ayobami <quadrijamiu2014@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
