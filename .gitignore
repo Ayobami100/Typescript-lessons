@@ -1,0 +1,4 @@
+Day1/node_modules
+Day1/*.json
+Day1/*.lock
+Day1/.gitignore
