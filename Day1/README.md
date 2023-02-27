@@ -16,4 +16,7 @@
 #### Default parameters
 #### Promise functions
 #### Destructured imports 
-#### Void promise... 
+#### Void promise
+#### Function parameters
+#### Function params with params 
+#### Functions as types... 
