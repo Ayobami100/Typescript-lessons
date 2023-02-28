@@ -7,7 +7,7 @@ interface Coordinate {
     y: number
 }
 
-
+function parseCoordinate(str: string): Coordinate;
 function parseCoordinate(obj: Coordinate):Coordinate;
 function parseCoordinate(x: number, y: number):Coordinate;
 function parseCoordinate(arg1: unknown, arg2?: unknown):Coordinate{
@@ -39,4 +39,5 @@ function parseCoordinate(arg1: unknown, arg2?: unknown):Coordinate{
 
 console.log(parseCoordinate(10,20));
 console.log(parseCoordinate({x:52, y:35}));
+console.log(parseCoordinate("x:52, y:35"));
 
