@@ -1,5 +1,7 @@
+//Declaring a tuple 
 type ThreeDCoordinate = [x:number, y:number, z:number];
 
+//function to add up the threeDCoordinate
 function add3DCoordinate(c1: ThreeDCoordinate, c2: ThreeDCoordinate, c3?: ThreeDCoordinate): ThreeDCoordinate{
     return [
         c1[0] + c2[0],
@@ -9,6 +11,7 @@ function add3DCoordinate(c1: ThreeDCoordinate, c2: ThreeDCoordinate, c3?: ThreeD
 }
 console.log(add3DCoordinate([0,100,0], [10,20,30]));
 
+//Using a similar useState for a tuple 
 function simpleStringState(initial: string): [() => string,(v: string) => void]{
 let str: string = initial; 
 return [
@@ -20,6 +23,7 @@ return [
 ];
 }
 
+//A setter and getter synthax in typescript tuplesq
 const [str1getter, str1setter] = simpleStringState("hello")
 const [str2getter, str2setter] = simpleStringState("Abdul")
 console.log(str1getter());
