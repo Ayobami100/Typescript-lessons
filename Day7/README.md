@@ -1,3 +1,9 @@
-# Using Generic data type together with keyof type
+# Typescript Utility Types(NO BS TS Episode 9)
 
-## This comes in handy to extent a property of a variable 
+## Includes:
+
+## Partial Type (<>)
+## Required Type
+## Record Type
+## Omit Type
+## Pick Type

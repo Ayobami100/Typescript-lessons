@@ -1,0 +1,1 @@
+# Enumeration and Literals in Typescript
