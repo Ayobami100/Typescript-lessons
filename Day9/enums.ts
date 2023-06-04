@@ -32,8 +32,8 @@ console.log(rollDice(3));
 
 
 //String Literals 
-function sendEvent(name: "addToCart", data: {productId: number}): void;
-function sendEvent(name: "checkOut", data: {cartCount: number}): void;
+// function sendEvent(name: "addToCart", data: {productId: number}): void;
+// function sendEvent(name: "checkOut", data: {cartCount: number}): void;
 function sendEvent(name: "addToCart", data: unknown): void{
     console.log(`${name}: ${JSON.stringify(data)}`);
 
